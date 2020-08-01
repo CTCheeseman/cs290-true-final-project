@@ -64,6 +64,10 @@ a:hover {
     color: lightgreen;
 }
 
+a:visited {
+    color: white;
+}
+
 /* Create a Parallax Effect */
 .sideImage {
     background-attachment: fixed;
@@ -100,6 +104,7 @@ a:hover {
 }
 
 /* Styling for the recipe page */
+
 .scrollBox {
     height: 120px;
     width: 50%;
@@ -138,4 +143,18 @@ a:hover {
     font-style: bold;
     text-align: center;
     padding: 20px;
+}
+
+/* This is styling for items on the review page */
+
+.firstReview {
+    /*margin-left: 25%;*/
+}
+
+.secondReview {
+    /*margin-left: 25%;*/
+}
+
+.thirdReview {
+    /*margin-left: 25%;*/
 }
