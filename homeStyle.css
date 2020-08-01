@@ -158,3 +158,9 @@ a:visited {
 .thirdReview {
     /*margin-left: 25%;*/
 }
+
+/* this is styling for items on the tips page */
+
+.video {
+    margin-top: 20px;
+}
