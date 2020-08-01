@@ -73,8 +73,8 @@ a:hover {
 }
 
 .sideimage {
-    background-image: url("zelda-breath-of-the-wild.original.jpg");
-    /*background-image: url("https://images.nintendolife.com/4fd3ad5d2c3ae/zelda-breath-of-the-wild.original.jpg");*/
+    /*background-image: url("zelda-breath-of-the-wild.original.jpg");*/
+    background-image: url("https://images.nintendolife.com/4fd3ad5d2c3ae/zelda-breath-of-the-wild.original.jpg");
     min-height: 100%;
 }
 
