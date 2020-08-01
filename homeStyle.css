@@ -1,0 +1,123 @@
+/* global styling*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* These items are persistent on all pages */
+/* styling for slideshow */
+.slideshow {
+    /*Sets width to 75% of screen*/
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+/* centers next and previous buttons, puts a grey background to them, give some opacity to buttons*/
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+    font-style: oblique;
+    opacity: 0.75;
+}
+
+/* Sets the next button to the right of the carousel */
+.next {
+    right: 0;
+}
+
+/* when hovering, will create a grey background and will change cursor to a pointer */
+.prev:hover, .next:hover {
+    background-color: grey;
+    cursor: pointer
+}
+
+.persistentHeader {
+    background-color: darkslategrey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.homeHeader {
+    display: inline-block;
+}
+
+#home, #tips, #recipes, #reviews {
+    font-size: 25px;
+    color: white;
+    font-style: bold;
+    padding-left: 15%;
+    cursor: pointer;
+}
+
+/* ensures that links are not blue and underlined*/
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgreen;
+}
+
+/* Create a Parallax Effect */
+.sideImage {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sideimage {
+    background-image: url("zelda-breath-of-the-wild.original.jpg");
+    /*background-image: url("https://images.nintendolife.com/4fd3ad5d2c3ae/zelda-breath-of-the-wild.original.jpg");*/
+    min-height: 100%;
+}
+
+.footer {
+    color: white;
+    background-color: grey;
+    text-align: center;
+}
+
+/* These items are only on the Home Page of the site */
+
+.unorderedList {
+    margin-left: 35px;
+    list-style-type: none;
+}
+
+.description {
+    margin-right: 50%;
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 25px;
+    color: white;
+    font-style:bold;
+}
+
+/* Styling for the recipe page */
+.scrollBox {
+    height: 120px;
+    width: 50%;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 15px;
+    color: white;
+    font-style:bold;
+    text-align: center;
+}
+
+.formBox {
+    height: 150px;
+    width: 50%;
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 20px;
+    overflow:hidden;
+    color: white;
+    font-style:bold;
+    text-align: center;
+}
